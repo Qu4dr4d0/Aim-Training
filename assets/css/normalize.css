@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: 
+  linear-gradient(#0d212eff 1px, transparent 1px),
+  linear-gradient(to right, #0d212eff  1px, #011524ff  1px);
+  background-size: 150px 150px;
+  animation: bg-scrolling-reverse linear 20s infinite;
+  overflow: hidden;
+}

@@ -1,0 +1,263 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 70%;
+  overflow: hidden;
+  background-color: rgba(0, 33, 56, .5);
+  transform: translateY(80px);
+  cursor: url(../imgs/aim.svg) 32 32, auto;
+  margin-top: -80px;
+}
+
+.panel {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+
+}
+
+.panel p {
+  font-size: 30px;
+  color: white;
+  transform: translateY(-20px);
+}
+
+
+
+
+
+
+#score {
+  font-size: 30px;
+  color: #ff5521ff;
+
+}
+
+.hidden {
+  display:  none !important;
+}
+
+.appear-flex {
+  visibility:visible;
+}
+
+.appear {
+  display: block !important;
+  visibility: hidden;
+}
+
+.btn-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(255, 0, 0);
+  background: radial-gradient(
+    circle,
+    #ff5521ff 6%,
+    rgba(255, 255, 255, 1) 6%,
+    rgba(255, 255, 255, 1) 20%,
+    #ff5521ff 20%,
+    #ff5521ff 35%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(255, 255, 255, 1) 58%,
+    #ff5521ff 58%,
+    #ff5521ff 85%,
+    rgba(255, 255, 255, 1) 85%
+  );
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 50px;
+  color: white;
+  transform: translateY(-70px);
+}
+
+
+
+.btn {
+  display: none;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(255, 0, 0);
+  background: radial-gradient(
+    circle,
+    #ff5521ff 6%,
+    rgba(255, 255, 255, 1) 6%,
+    rgba(255, 255, 255, 1) 20%,
+    #ff5521ff 20%,
+    #ff5521ff 35%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(255, 255, 255, 1) 58%,
+    #ff5521ff 58%,
+    #ff5521ff 85%,
+    rgba(255, 255, 255, 1) 85%
+  );
+  cursor: url(../imgs/aim.svg)32 32, auto;
+}
+
+.box .btn:nth-child(1) {
+  top: 12%;
+  left: 42%;
+  animation: animate 8s 10s linear 1;
+
+}
+
+.box .btn:nth-child(2) {
+  top: 70%;
+  left: 50%;
+  animation: animate 8s 9.5s linear 1;
+}
+
+.box .btn:nth-child(3) {
+  top: 17%;
+  left: 6%;
+  animation: animate 8s 9s linear 1;
+}
+
+.box .btn:nth-child(4) {
+  top: 20%;
+  left: 60%;
+  animation: animate 8s 8.5s linear 1;
+}
+
+.box .btn:nth-child(5) {
+  top: 67%;
+  left: 10%;
+  animation: animate 8s 8s linear 1;
+}
+
+.box .btn:nth-child(6) {
+  top: 80%;
+  left: 70%;
+  animation: animate 8s 7.5s linear 1;
+}
+
+.box .btn:nth-child(7) {
+  top: 60%;
+  left: 80%;
+  animation: animate 8s 7s linear 1;
+}
+
+.box .btn:nth-child(8) {
+  top: 32%;
+  left: 25%;
+  animation: animate 8s 6.5s linear 1;
+}
+
+.box .btn:nth-child(9) {
+  top: 85%;
+  left: 25%;
+  animation: animate 8s 6s linear 1;
+}
+
+.box .btn:nth-child(10) {
+  top: 20%;
+  left: 70%;
+  animation: animate 8s 5.5s linear 1;
+}
+.box .btn:nth-child(11) {
+  top: 15%;
+  left: 95%;
+  animation: animate 8s 5s linear 1;
+}
+.box .btn:nth-child(12) {
+  bottom: 20%;
+  right: .5%;
+  animation: animate 8s 4.5s linear 1;
+}
+
+.box .btn:nth-child(13) {
+  top: 5%;
+  right: 60%;
+  animation: animate 8s 4s linear 1;
+}
+
+.box .btn:nth-child(14) {
+  top: 60%;
+  right: 60%;
+  animation: animate 8s 3.5s linear 1;
+}
+
+.box .btn:nth-child(15) {
+  bottom: 40%;
+  right: 30%;
+  animation: animate 8s 3s linear 1;
+}
+
+.box .btn:nth-child(16) {
+  bottom: 80%;
+  left: 20%;
+  animation: animate 8s 2.5s linear 1;
+}
+
+.box .btn:nth-child(17) {
+  bottom: 3%;
+  right: 3%;
+  animation: animate 8s 2s linear 1;
+}
+
+.box .btn:nth-child(18) {
+  bottom: 3%;
+  left: 3%;
+  animation: animate 8s 1.5s linear 1;
+}
+
+.box .btn:nth-child(19) {
+  bottom: 50%;
+  right: 9%;
+  animation: animate 8s 1s linear 1;
+}
+
+.box .btn:nth-child(20) {
+  top: 5%;
+  right: 25%;
+  animation: animate 8s .5s linear 1;
+}
+
+.box .btn:nth-child(21) {
+  top: 50%;
+  right: 50%;
+  animation: animate 16s .5s linear 1;
+}
+
+.play {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+  background-color: #ff5521ff;
+  border-radius: 1000px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  gap: 13px;
+  z-index: 2;
+}
+
+.play__img {
+  background-image: url(../imgs/play.svg);
+  width: 25px;
+  height: 27px;
+  transition: all ease .3s;
+}
+
+.play:hover .play__img {
+  transform: translateX(8px);
+}
+
+
+
+
+
